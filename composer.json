@@ -1,0 +1,22 @@
+{
+    "name": "marciosous4/ecommerce",
+    "description": "projeto ecommerce",
+    "type": "project",
+    "authors": [
+        {
+            "name": "marcio sousa",
+            "email": "meu3m4il@outlook.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "phpmailer/phpmailer":"5.2.22",
+        "slim/slim":"2.0",
+        "rain/raintpl":"3.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hcode\\": "vendor\\hcodebr\\php-classes\\src"
+        }
+    }
+}
